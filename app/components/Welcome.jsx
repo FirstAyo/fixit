@@ -5,7 +5,14 @@ import { useRouter } from "next/navigation";
 import RoleSelect from "./RoleSelect";
 import customerIcon from "../../public/images/users.svg";
 import handymanIcon from "../../public/images/tools.svg";
+import handymanImage from "../../public/images/handyman.png";
 import Image from "next/image";
+import SmallCards from "./SmallCards";
+import acceptIcon from "../../public/images/accept.png";
+import starIcon from "../../public/images/star.png";
+import suitcaseIcon from "../../public/images/suitcase.png";
+import HeroBackdrop from "./HeroBackdrop";
+import TopRightCorner from "./TopRightCorner";
 
 export default function Welcome() {
   const [value, setValue] = useState("customer");
@@ -17,14 +24,49 @@ export default function Welcome() {
   }
   return (
     <>
-      <div className=" md:w-[90%] md:h-[50%] lg:w-[60%] lg:h-[75%] border mx-auto my-20 flex">
-        <div>
-          <Image />
+      <div className="flex flex-col justify-center items-center md:flex-row md:w-[90%] md:h-[50%] lg:w-[60%] lg:h-[75%] md:border mx-auto my-10 md:my-20">
+        <TopRightCorner />
+        <h2 className="text-center text-4xl font-bold md:hidden py-5">
+          Fix<span className="text-gray-500">It</span>
+        </h2>
+        <div className="w-[95%] h-96 flex justify-center relative md:hidden">
+          <Image
+            src={handymanImage}
+            width={1000}
+            height={1000}
+            alt="Handyman image"
+            className="w-64 h-auto object-fit pt-5"
+          />
+          <SmallCards
+            top="top-5"
+            left="left-0"
+            right="right-80"
+            bottom="bottom-75"
+            image={suitcaseIcon}
+          />
+          <SmallCards
+            top="top-60"
+            left="left-10"
+            right="right-70"
+            bottom="bottom-20"
+            image={acceptIcon}
+          />
+          <SmallCards
+            top="top-30"
+            left="left-55"
+            right="right-10"
+            bottom="bottom-50"
+            image={starIcon}
+          />
         </div>
         <div className="hidden md:block w-[40%] bg-black"></div>
-        <div className="w-[60%] flex flex-col justify-center p-8">
-          <h1 className="text-4xl font-bold">Welcome!</h1>
-          <p className="text-gray-600">Choose your role to continue</p>
+        <div className="w-[90%] md:w-[60%] flex flex-col justify-center py-8">
+          <h1 className="text-4xl font-bold text-center md:text-left">
+            Welcome!
+          </h1>
+          <p className="text-gray-600 text-center md:text-left">
+            Choose your role to continue
+          </p>
           <div className="flex flex-col gap-3 my-10">
             <RoleSelect
               text="I am a customer"
@@ -45,7 +87,7 @@ export default function Welcome() {
           </div>
           <button
             onClick={handleContinue}
-            className="border rounded-md w-[75%] p-2 bg-black text-white"
+            className="border rounded-md md:w-[75%] py-3 bg-black text-white"
           >
             Continue
           </button>
