@@ -1,5 +1,5 @@
 export default function TopRightCorner({
-  className = "w-72 h-auto text-yellow-400",
+  className = "w-72 h-auto text-yellow-400 md:hidden",
 }) {
   return (
     <svg

@@ -11,8 +11,9 @@ import SmallCards from "./SmallCards";
 import acceptIcon from "../../public/images/accept.png";
 import starIcon from "../../public/images/star.png";
 import suitcaseIcon from "../../public/images/suitcase.png";
-import HeroBackdrop from "./HeroBackdrop";
 import TopRightCorner from "./TopRightCorner";
+import GreenSwoosh from "./GreenSwoosh";
+import BlueFooter from "./BlueFooter";
 
 export default function Welcome() {
   const [value, setValue] = useState("customer");
@@ -59,6 +60,7 @@ export default function Welcome() {
             image={starIcon}
           />
         </div>
+        <GreenSwoosh />
         <div className="hidden md:block w-[40%] bg-black"></div>
         <div className="w-[90%] md:w-[60%] flex flex-col justify-center py-8">
           <h1 className="text-4xl font-bold text-center md:text-left">
@@ -93,6 +95,7 @@ export default function Welcome() {
           </button>
         </div>
       </div>
+      <BlueFooter />
     </>
   );
 }
