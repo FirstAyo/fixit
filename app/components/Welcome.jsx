@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { useRouter } from "next/navigation";
+// import { useRouter } from "next/navigation";
 import RoleSelect from "./RoleSelect";
 import customerIcon from "../../public/images/users.svg";
 import handymanIcon from "../../public/images/tools.svg";
@@ -14,15 +14,16 @@ import suitcaseIcon from "../../public/images/suitcase.png";
 import TopRightCorner from "./TopRightCorner";
 import GreenSwoosh from "./GreenSwoosh";
 import BlueFooter from "./BlueFooter";
+import Link from "next/link";
 
 export default function Welcome() {
   const [value, setValue] = useState("customer");
-  const router = useRouter();
+  // const router = useRouter();
 
-  function handleContinue() {
-    const path = value === "customer" ? "/users" : "/handyman";
-    router.push(path);
-  }
+  // function handleContinue() {
+  //   const path = value === "customer" ? "/login" : "/handyman";
+  //   router.push(path);
+  // }
   return (
     <>
       <div className="flex flex-col justify-center items-center md:flex-row md:w-[90%] md:h-[50%] lg:w-[60%] lg:h-[75%] md:border mx-auto my-10 md:my-20">
@@ -61,8 +62,8 @@ export default function Welcome() {
           />
         </div>
         <GreenSwoosh />
-        <div className="hidden md:block w-[40%] bg-black"></div>
-        <div className="w-[90%] md:w-[60%] flex flex-col justify-center py-8">
+        <div className="hidden md:block h-full w-[40%] bg-black"></div>
+        <div className="w-[90%] md:w-[60%] flex flex-col justify-center py-8 md:px-5">
           <h1 className="text-4xl font-bold text-center md:text-left">
             Welcome!
           </h1>
@@ -87,12 +88,11 @@ export default function Welcome() {
               onSelect={() => setValue("handyman")}
             />
           </div>
-          <button
-            onClick={handleContinue}
-            className="border rounded-md md:w-[75%] py-3 bg-black text-white"
-          >
-            Continue
-          </button>
+          <Link href="/login">
+            <button className="border rounded-md md:w-[75%] py-3 bg-black text-white">
+              Continue
+            </button>
+          </Link>
         </div>
       </div>
       <BlueFooter />
