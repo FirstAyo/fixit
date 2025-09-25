@@ -1,5 +1,7 @@
+"use client";
+
 import Link from "next/link";
-import React from "react";
+import { useState } from "react";
 import appleIcon from "../../public/images/apple.png";
 import fbIcon from "../../public/images/facebook.png";
 import googleIcon from "../../public/images/google.png";
@@ -7,14 +9,38 @@ import Image from "next/image";
 
 export default function UserLogin() {
   const socialIcons = [googleIcon, fbIcon, appleIcon];
+  const [user, setUser] = useState("");
+
+  function handleChange(e) {
+    setUser(e.target.value);
+  }
+
+  function login(e) {
+    e.preventDefault();
+
+    if (user !== "customer" && user !== "handyman") {
+      alert("Please enter a valid user type: 'customer' or 'handyman'");
+      setUser("");
+      return;
+    }
+
+    if (user === "customer") {
+      window.location.href = "/users";
+    } else {
+      window.location.href = "/handyman";
+    }
+  }
+
   return (
     <div className="mx-auto md:w-[60%] flex flex-col justify-center items-center my-28">
-      <div className="w-[90%] mx-auto md:w-[60%] flex flex-col gap-5">
+      <form className="w-[90%] mx-auto md:w-[60%] flex flex-col gap-5">
         <div>
           <h2 className="text-4xl font-bold leading-12 text-center">
             Welcome Back
           </h2>
-          <p className="text-center py-1 text-gray-500">Login to your account</p>
+          <p className="text-center py-1 text-gray-500">
+            Login to your account
+          </p>
         </div>
         <div className="flex flex-col gap-3">
           <label htmlFor="email">Email Address</label>
@@ -25,6 +51,8 @@ export default function UserLogin() {
             placeholder="Enter your Email address"
             required
             className="px-4 py-3 border rounded-lg"
+            value={user}
+            onChange={handleChange}
           />
         </div>
         <div className="flex flex-col gap-3">
@@ -36,6 +64,8 @@ export default function UserLogin() {
             placeholder="Enter password"
             required
             className="px-4 py-3 border rounded-lg"
+            value={user}
+            onChange={handleChange}
           />
         </div>
         <div className="flex justify-between">
@@ -47,10 +77,14 @@ export default function UserLogin() {
             <Link href="/">Forgot password?</Link>
           </div>
         </div>
-        <button className="text-white bg-black py-3 rounded-lg my-5">
-          <Link href="/">Log in</Link>
+        <button
+          type="submit"
+          onClick={login}
+          className="text-white bg-black py-3 rounded-lg my-5"
+        >
+          Log in
         </button>
-      </div>
+      </form>
 
       <p className="my-5">
         Don't have an account?{" "}

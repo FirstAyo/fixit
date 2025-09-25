@@ -89,7 +89,7 @@ export default function Welcome() {
             />
           </div>
           <Link href="/login">
-            <button className="border rounded-md md:w-[75%] py-3 bg-black text-white">
+            <button className="w-[100%] border rounded-md md:w-[75%] py-3 bg-black text-white">
               Continue
             </button>
           </Link>
