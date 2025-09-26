@@ -1,7 +1,14 @@
 "use client";
 
 import { useState } from "react";
-import homeIcon from "../../public/images/tools.svg";
+import homeIcon from "../../public/images/home.png";
+import menuIcon from "../../public/images/menu.png";
+import servicesIcon from "../../public/images/briefcase.png";
+import logoutIcon from "../../public/images/logout.png";
+import bookingsIcon from "../../public/images/calendar.png";
+import messagesIcon from "../../public/images/mail.png";
+import bookmarksIcon from "../../public/images/bookmark.png";
+import supportIcon from "../../public/images/support.png";
 import UserProfile from "./UserProfile";
 import profilePic from "../../public/images/profile-pic.png";
 import Image from "next/image";
@@ -10,11 +17,11 @@ import Link from "next/link";
 export default function NavBar() {
   const menuItems = [
     { id: 1, option: "Home", link: "/", img: homeIcon },
-    { id: 2, option: "Services", link: "/", img: homeIcon },
-    { id: 3, option: "Bookings", link: "/", img: homeIcon },
-    { id: 4, option: "Messages", link: "/", img: homeIcon },
-    { id: 5, option: "Bookmarks", link: "/", img: homeIcon },
-    { id: 6, option: "Help & Support", link: "/", img: homeIcon },
+    { id: 2, option: "Services", link: "/", img: servicesIcon },
+    { id: 3, option: "Bookings", link: "/", img: bookingsIcon },
+    { id: 4, option: "Messages", link: "/", img: messagesIcon },
+    { id: 5, option: "Bookmarks", link: "/", img: bookmarksIcon },
+    { id: 6, option: "Help & Support", link: "/", img: supportIcon },
   ];
 
   const [isOpen, setIsOpen] = useState(false);
@@ -89,7 +96,16 @@ export default function NavBar() {
                   </div>
                 ))}
               </ul>
-              <button className="text-left text-red-500">Logout</button>
+              <Link href="\login" className="flex items-center gap-3 py-3">
+                <Image
+                  src={logoutIcon}
+                  width={30}
+                  height={30}
+                  alt="menu image"
+                  className="w-5 h-5"
+                />
+                <button className="text-left text-red-500 cursor-pointer">Logout</button>
+              </Link>
             </nav>
           </div>
         </div>
