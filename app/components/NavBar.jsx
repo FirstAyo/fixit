@@ -28,7 +28,7 @@ export default function NavBar() {
 
   return (
     <>
-      <header className="my-5">
+      <header className="absolute top-0 left-0 w-full bg-white py-3 z-50 shadow-md">
         <div className="">
           <div
             className={

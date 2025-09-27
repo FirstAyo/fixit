@@ -1,0 +1,418 @@
+[
+  {
+    "id": "svc_plumb_01",
+    "category": "Plumbing",
+    "title": "Fix Leaky Faucet",
+    "excerpt": "Diagnose and repair a dripping or hard-to-turn faucet. Includes basic parts.",
+    "cost": {
+      "amount": 95,
+      "currency": "CAD",
+      "pricing_type": "fixed",
+      "display": "From $95"
+    },
+    "image": "https://placehold.co/800x600?text=Plumbing+%E2%80%93+Leaky+Faucet",
+    "handyman": {
+      "id": "pro_ava_01",
+      "name": "Ava Chen",
+      "avatar": "https://i.pravatar.cc/150?img=11",
+      "rating": 4.9,
+      "jobsCompleted": 186,
+      "yearsExperience": 7
+    },
+    "tags": ["faucet", "kitchen", "bathroom"],
+    "duration_hours_estimate": 1.0,
+    "materials_included": true,
+    "slug": "fix-leaky-faucet",
+    "next_available": "2025-09-27"
+  },
+  {
+    "id": "svc_plumb_02",
+    "category": "Plumbing",
+    "title": "Clogged Drain Snaking",
+    "excerpt": "Clear slow or blocked sink, tub, or shower drains using a hand or power auger.",
+    "cost": {
+      "amount": 120,
+      "currency": "CAD",
+      "pricing_type": "fixed",
+      "display": "From $120"
+    },
+    "image": "https://placehold.co/800x600?text=Plumbing+%E2%80%93+Drain+Snaking",
+    "handyman": {
+      "id": "pro_diego_02",
+      "name": "Diego Martins",
+      "avatar": "https://i.pravatar.cc/150?img=22",
+      "rating": 4.7,
+      "jobsCompleted": 142,
+      "yearsExperience": 6
+    },
+    "tags": ["drain", "snaking"],
+    "duration_hours_estimate": 1.5,
+    "materials_included": false,
+    "slug": "clogged-drain-snaking",
+    "next_available": "2025-09-29"
+  },
+  {
+    "id": "svc_plumb_03",
+    "category": "Plumbing",
+    "title": "Toilet Install/Replace",
+    "excerpt": "Remove old toilet, install a new one, and test for leaks (customer-supplied unit).",
+    "cost": {
+      "amount": 180,
+      "currency": "CAD",
+      "pricing_type": "fixed",
+      "display": "From $180"
+    },
+    "image": "https://placehold.co/800x600?text=Plumbing+%E2%80%93+Toilet+Install",
+    "handyman": {
+      "id": "pro_noah_03",
+      "name": "Noah Williams",
+      "avatar": "https://i.pravatar.cc/150?img=33",
+      "rating": 4.8,
+      "jobsCompleted": 203,
+      "yearsExperience": 9
+    },
+    "tags": ["toilet", "install"],
+    "duration_hours_estimate": 2.0,
+    "materials_included": false,
+    "slug": "toilet-install-replace",
+    "next_available": "2025-09-28"
+  },
+  {
+    "id": "svc_elec_01",
+    "category": "Electricity",
+    "title": "Light Fixture Replacement",
+    "excerpt": "Swap out existing light fixtures and ensure safe wiring and testing.",
+    "cost": {
+      "amount": 110,
+      "currency": "CAD",
+      "pricing_type": "fixed",
+      "display": "From $110"
+    },
+    "image": "https://placehold.co/800x600?text=Electricity+%E2%80%93+Light+Fixture",
+    "handyman": {
+      "id": "pro_maya_04",
+      "name": "Maya Patel",
+      "avatar": "https://i.pravatar.cc/150?img=44",
+      "rating": 4.9,
+      "jobsCompleted": 318,
+      "yearsExperience": 8
+    },
+    "tags": ["lighting", "wiring"],
+    "duration_hours_estimate": 1.25,
+    "materials_included": false,
+    "slug": "light-fixture-replacement",
+    "next_available": "2025-09-26"
+  },
+  {
+    "id": "svc_elec_02",
+    "category": "Electricity",
+    "title": "Outlet & Switch Repair",
+    "excerpt": "Fix faulty outlets or switches and replace with modern, child-safe parts.",
+    "cost": {
+      "amount": 95,
+      "currency": "CAD",
+      "pricing_type": "fixed",
+      "display": "From $95"
+    },
+    "image": "https://placehold.co/800x600?text=Electricity+%E2%80%93+Outlet+Repair",
+    "handyman": {
+      "id": "pro_ethan_05",
+      "name": "Ethan Brown",
+      "avatar": "https://i.pravatar.cc/150?img=55",
+      "rating": 4.6,
+      "jobsCompleted": 127,
+      "yearsExperience": 5
+    },
+    "tags": ["outlet", "switch"],
+    "duration_hours_estimate": 1.0,
+    "materials_included": true,
+    "slug": "outlet-switch-repair",
+    "next_available": "2025-09-30"
+  },
+  {
+    "id": "svc_elec_03",
+    "category": "Electricity",
+    "title": "Ceiling Fan Install",
+    "excerpt": "Install ceiling fan with proper support box, balancing, and speed controls.",
+    "cost": {
+      "amount": 160,
+      "currency": "CAD",
+      "pricing_type": "fixed",
+      "display": "From $160"
+    },
+    "image": "https://placehold.co/800x600?text=Electricity+%E2%80%93+Ceiling+Fan",
+    "handyman": {
+      "id": "pro_olivia_06",
+      "name": "Olivia Nguyen",
+      "avatar": "https://i.pravatar.cc/150?img=66",
+      "rating": 4.8,
+      "jobsCompleted": 215,
+      "yearsExperience": 7
+    },
+    "tags": ["fan", "install", "lighting"],
+    "duration_hours_estimate": 2.0,
+    "materials_included": false,
+    "slug": "ceiling-fan-install",
+    "next_available": "2025-09-27"
+  },
+  {
+    "id": "svc_paint_01",
+    "category": "Painting",
+    "title": "Room Repaint (Single)",
+    "excerpt": "Prep, patch, and repaint a standard-size room. Paint not included.",
+    "cost": {
+      "amount": 320,
+      "currency": "CAD",
+      "pricing_type": "fixed",
+      "display": "From $320"
+    },
+    "image": "https://placehold.co/800x600?text=Painting+%E2%80%93+Room+Repaint",
+    "handyman": {
+      "id": "pro_jack_07",
+      "name": "Jack Thompson",
+      "avatar": "https://i.pravatar.cc/150?img=7",
+      "rating": 4.7,
+      "jobsCompleted": 193,
+      "yearsExperience": 10
+    },
+    "tags": ["interior", "walls", "prep"],
+    "duration_hours_estimate": 6.0,
+    "materials_included": false,
+    "slug": "room-repaint-single",
+    "next_available": "2025-10-01"
+  },
+  {
+    "id": "svc_paint_02",
+    "category": "Painting",
+    "title": "Accent Wall Paint",
+    "excerpt": "Add a pop of color with a neatly taped and rolled accent wall.",
+    "cost": {
+      "amount": 150,
+      "currency": "CAD",
+      "pricing_type": "fixed",
+      "display": "From $150"
+    },
+    "image": "https://placehold.co/800x600?text=Painting+%E2%80%93+Accent+Wall",
+    "handyman": {
+      "id": "pro_zara_08",
+      "name": "Zara Ahmed",
+      "avatar": "https://i.pravatar.cc/150?img=8",
+      "rating": 4.9,
+      "jobsCompleted": 274,
+      "yearsExperience": 9
+    },
+    "tags": ["accent", "color"],
+    "duration_hours_estimate": 2.5,
+    "materials_included": false,
+    "slug": "accent-wall-paint",
+    "next_available": "2025-09-26"
+  },
+  {
+    "id": "svc_paint_03",
+    "category": "Painting",
+    "title": "Exterior Touch-Ups",
+    "excerpt": "Scrape, prime, and paint small exterior areas for quick curb appeal.",
+    "cost": {
+      "amount": 260,
+      "currency": "CAD",
+      "pricing_type": "fixed",
+      "display": "From $260"
+    },
+    "image": "https://placehold.co/800x600?text=Painting+%E2%80%93+Exterior+Touch-Ups",
+    "handyman": {
+      "id": "pro_caleb_09",
+      "name": "Caleb Brooks",
+      "avatar": "https://i.pravatar.cc/150?img=9",
+      "rating": 4.6,
+      "jobsCompleted": 131,
+      "yearsExperience": 6
+    },
+    "tags": ["exterior", "primer"],
+    "duration_hours_estimate": 4.0,
+    "materials_included": false,
+    "slug": "exterior-touch-ups",
+    "next_available": "2025-09-28"
+  },
+  {
+    "id": "svc_carp_01",
+    "category": "Carpentry",
+    "title": "Door Hanging & Alignment",
+    "excerpt": "Install interior doors, adjust hinges, and align latches for smooth close.",
+    "cost": {
+      "amount": 140,
+      "currency": "CAD",
+      "pricing_type": "fixed",
+      "display": "From $140"
+    },
+    "image": "https://placehold.co/800x600?text=Carpentry+%E2%80%93+Door+Hanging",
+    "handyman": {
+      "id": "pro_ivy_10",
+      "name": "Ivy Park",
+      "avatar": "https://i.pravatar.cc/150?img=10",
+      "rating": 4.8,
+      "jobsCompleted": 172,
+      "yearsExperience": 8
+    },
+    "tags": ["doors", "hinges", "trim"],
+    "duration_hours_estimate": 2.0,
+    "materials_included": false,
+    "slug": "door-hanging-alignment",
+    "next_available": "2025-09-27"
+  },
+  {
+    "id": "svc_carp_02",
+    "category": "Carpentry",
+    "title": "Baseboard & Trim Install",
+    "excerpt": "Measure, cut, and install interior baseboards and trim with caulking.",
+    "cost": {
+      "amount": 220,
+      "currency": "CAD",
+      "pricing_type": "fixed",
+      "display": "From $220"
+    },
+    "image": "https://placehold.co/800x600?text=Carpentry+%E2%80%93+Baseboards",
+    "handyman": {
+      "id": "pro_mateo_11",
+      "name": "Mateo García",
+      "avatar": "https://i.pravatar.cc/150?img=15",
+      "rating": 4.7,
+      "jobsCompleted": 156,
+      "yearsExperience": 7
+    },
+    "tags": ["baseboards", "trim"],
+    "duration_hours_estimate": 3.5,
+    "materials_included": false,
+    "slug": "baseboard-trim-install",
+    "next_available": "2025-09-30"
+  },
+  {
+    "id": "svc_roof_01",
+    "category": "Roofing",
+    "title": "Shingle Patch Repair",
+    "excerpt": "Replace missing or damaged shingles and reseal flashing to stop small leaks.",
+    "cost": {
+      "amount": 250,
+      "currency": "CAD",
+      "pricing_type": "fixed",
+      "display": "From $250"
+    },
+    "image": "https://placehold.co/800x600?text=Roofing+%E2%80%93+Shingle+Patch",
+    "handyman": {
+      "id": "pro_nora_12",
+      "name": "Nora Kim",
+      "avatar": "https://i.pravatar.cc/150?img=12",
+      "rating": 4.6,
+      "jobsCompleted": 98,
+      "yearsExperience": 6
+    },
+    "tags": ["shingles", "leak"],
+    "duration_hours_estimate": 3.0,
+    "materials_included": false,
+    "slug": "shingle-patch-repair",
+    "next_available": "2025-10-02"
+  },
+  {
+    "id": "svc_roof_02",
+    "category": "Roofing",
+    "title": "Gutter Cleaning",
+    "excerpt": "Clean gutters and downspouts, flush lines, and check for proper drainage.",
+    "cost": {
+      "amount": 180,
+      "currency": "CAD",
+      "pricing_type": "fixed",
+      "display": "From $180"
+    },
+    "image": "https://placehold.co/800x600?text=Roofing+%E2%80%93+Gutter+Cleaning",
+    "handyman": {
+      "id": "pro_henry_13",
+      "name": "Henry Clarke",
+      "avatar": "https://i.pravatar.cc/150?img=13",
+      "rating": 4.8,
+      "jobsCompleted": 211,
+      "yearsExperience": 9
+    },
+    "tags": ["gutter", "downspout"],
+    "duration_hours_estimate": 2.5,
+    "materials_included": false,
+    "slug": "gutter-cleaning",
+    "next_available": "2025-09-26"
+  },
+  {
+    "id": "svc_brick_01",
+    "category": "Bricklaying",
+    "title": "Brick Repointing (Small Area)",
+    "excerpt": "Grind out deteriorated mortar joints and repoint small wall sections.",
+    "cost": {
+      "amount": 350,
+      "currency": "CAD",
+      "pricing_type": "fixed",
+      "display": "From $350"
+    },
+    "image": "https://placehold.co/800x600?text=Bricklaying+%E2%80%93+Repointing",
+    "handyman": {
+      "id": "pro_sofia_14",
+      "name": "Sofia Lopez",
+      "avatar": "https://i.pravatar.cc/150?img=14",
+      "rating": 4.7,
+      "jobsCompleted": 124,
+      "yearsExperience": 7
+    },
+    "tags": ["mortar", "repointing"],
+    "duration_hours_estimate": 4.0,
+    "materials_included": false,
+    "slug": "brick-repointing-small-area",
+    "next_available": "2025-10-03"
+  },
+  {
+    "id": "svc_brick_02",
+    "category": "Bricklaying",
+    "title": "Paver Repair & Reset",
+    "excerpt": "Lift, level, and reset sunken or wobbly pavers; sweep in polymeric sand.",
+    "cost": {
+      "amount": 300,
+      "currency": "CAD",
+      "pricing_type": "fixed",
+      "display": "From $300"
+    },
+    "image": "https://placehold.co/800x600?text=Bricklaying+%E2%80%93+Paver+Repair",
+    "handyman": {
+      "id": "pro_liam_15",
+      "name": "Liam O’Connor",
+      "avatar": "https://i.pravatar.cc/150?img=5",
+      "rating": 4.8,
+      "jobsCompleted": 167,
+      "yearsExperience": 8
+    },
+    "tags": ["pavers", "level"],
+    "duration_hours_estimate": 3.5,
+    "materials_included": false,
+    "slug": "paver-repair-reset",
+    "next_available": "2025-09-29"
+  },
+  {
+    "id": "svc_misc_01",
+    "category": "Carpentry",
+    "title": "Custom Floating Shelves",
+    "excerpt": "Design, build, and mount floating shelves with hidden brackets.",
+    "cost": {
+      "amount": 260,
+      "currency": "CAD",
+      "pricing_type": "fixed",
+      "display": "From $260"
+    },
+    "image": "https://placehold.co/800x600?text=Carpentry+%E2%80%93+Shelves",
+    "handyman": {
+      "id": "pro_oliver_16",
+      "name": "Oliver Reed",
+      "avatar": "https://i.pravatar.cc/150?img=16",
+      "rating": 4.9,
+      "jobsCompleted": 241,
+      "yearsExperience": 10
+    },
+    "tags": ["shelves", "custom"],
+    "duration_hours_estimate": 3.0,
+    "materials_included": false,
+    "slug": "custom-floating-shelves",
+    "next_available": "2025-09-27"
+  }
+]

@@ -1,0 +1,404 @@
+[
+  {
+    "id": "pro_ava_01",
+    "name": "Ava Chen",
+    "avatar": "https://i.pravatar.cc/150?img=11",
+    "categories": [
+      "Plumbing"
+    ],
+    "rating": 4.9,
+    "jobsCompleted": 186,
+    "yearsExperience": 7,
+    "hourly_rate_cad": 85,
+    "city": "Vancouver, BC",
+    "travelRadius_km": 25,
+    "languages": [
+      "English",
+      "Mandarin"
+    ],
+    "verified": true,
+    "insured": true,
+    "skills": [
+      "faucets",
+      "drain traps",
+      "supply lines"
+    ],
+    "bio": "Detail-oriented plumber focused on neat work and tidy cleanups."
+  },
+  {
+    "id": "pro_diego_02",
+    "name": "Diego Martins",
+    "avatar": "https://i.pravatar.cc/150?img=22",
+    "categories": [
+      "Plumbing"
+    ],
+    "rating": 4.7,
+    "jobsCompleted": 142,
+    "yearsExperience": 6,
+    "hourly_rate_cad": 80,
+    "city": "Vancouver, BC",
+    "travelRadius_km": 30,
+    "languages": [
+      "English",
+      "Portuguese"
+    ],
+    "verified": true,
+    "insured": true,
+    "skills": [
+      "snaking",
+      "hydro-jetting"
+    ],
+    "bio": "Efficient diagnostics and fast drain clearing."
+  },
+  {
+    "id": "pro_noah_03",
+    "name": "Noah Williams",
+    "avatar": "https://i.pravatar.cc/150?img=33",
+    "categories": [
+      "Plumbing"
+    ],
+    "rating": 4.8,
+    "jobsCompleted": 203,
+    "yearsExperience": 9,
+    "hourly_rate_cad": 90,
+    "city": "Vancouver, BC",
+    "travelRadius_km": 35,
+    "languages": [
+      "English"
+    ],
+    "verified": true,
+    "insured": true,
+    "skills": [
+      "toilets",
+      "flanges",
+      "wax rings"
+    ],
+    "bio": "Reliable installs with thorough leak testing."
+  },
+  {
+    "id": "pro_maya_04",
+    "name": "Maya Patel",
+    "avatar": "https://i.pravatar.cc/150?img=44",
+    "categories": [
+      "Electricity"
+    ],
+    "rating": 4.9,
+    "jobsCompleted": 318,
+    "yearsExperience": 8,
+    "hourly_rate_cad": 95,
+    "city": "Vancouver, BC",
+    "travelRadius_km": 20,
+    "languages": [
+      "English",
+      "Gujarati"
+    ],
+    "verified": true,
+    "insured": true,
+    "skills": [
+      "lighting",
+      "fixtures",
+      "dimmers"
+    ],
+    "bio": "Licensed electrician with a knack for modern fixtures."
+  },
+  {
+    "id": "pro_ethan_05",
+    "name": "Ethan Brown",
+    "avatar": "https://i.pravatar.cc/150?img=55",
+    "categories": [
+      "Electricity"
+    ],
+    "rating": 4.6,
+    "jobsCompleted": 127,
+    "yearsExperience": 5,
+    "hourly_rate_cad": 85,
+    "city": "Vancouver, BC",
+    "travelRadius_km": 25,
+    "languages": [
+      "English"
+    ],
+    "verified": true,
+    "insured": true,
+    "skills": [
+      "outlets",
+      "switches"
+    ],
+    "bio": "Safety-first electrician for small residential repairs."
+  },
+  {
+    "id": "pro_olivia_06",
+    "name": "Olivia Nguyen",
+    "avatar": "https://i.pravatar.cc/150?img=66",
+    "categories": [
+      "Electricity"
+    ],
+    "rating": 4.8,
+    "jobsCompleted": 215,
+    "yearsExperience": 7,
+    "hourly_rate_cad": 92,
+    "city": "Vancouver, BC",
+    "travelRadius_km": 22,
+    "languages": [
+      "English",
+      "Vietnamese"
+    ],
+    "verified": true,
+    "insured": true,
+    "skills": [
+      "fans",
+      "supports",
+      "balancing"
+    ],
+    "bio": "Clean installs with proper support hardware."
+  },
+  {
+    "id": "pro_jack_07",
+    "name": "Jack Thompson",
+    "avatar": "https://i.pravatar.cc/150?img=7",
+    "categories": [
+      "Painting"
+    ],
+    "rating": 4.7,
+    "jobsCompleted": 193,
+    "yearsExperience": 10,
+    "hourly_rate_cad": 70,
+    "city": "Vancouver, BC",
+    "travelRadius_km": 35,
+    "languages": [
+      "English"
+    ],
+    "verified": true,
+    "insured": true,
+    "skills": [
+      "prep",
+      "patch",
+      "cutting in"
+    ],
+    "bio": "High attention to prep and clean lines."
+  },
+  {
+    "id": "pro_zara_08",
+    "name": "Zara Ahmed",
+    "avatar": "https://i.pravatar.cc/150?img=8",
+    "categories": [
+      "Painting"
+    ],
+    "rating": 4.9,
+    "jobsCompleted": 274,
+    "yearsExperience": 9,
+    "hourly_rate_cad": 75,
+    "city": "Vancouver, BC",
+    "travelRadius_km": 28,
+    "languages": [
+      "English",
+      "Urdu"
+    ],
+    "verified": true,
+    "insured": true,
+    "skills": [
+      "accents",
+      "rollers",
+      "taping"
+    ],
+    "bio": "Colour consultant and precise finisher."
+  },
+  {
+    "id": "pro_caleb_09",
+    "name": "Caleb Brooks",
+    "avatar": "https://i.pravatar.cc/150?img=9",
+    "categories": [
+      "Painting"
+    ],
+    "rating": 4.6,
+    "jobsCompleted": 131,
+    "yearsExperience": 6,
+    "hourly_rate_cad": 72,
+    "city": "Vancouver, BC",
+    "travelRadius_km": 40,
+    "languages": [
+      "English"
+    ],
+    "verified": true,
+    "insured": true,
+    "skills": [
+      "exterior prep",
+      "priming"
+    ],
+    "bio": "Exterior specialist for small touch-ups."
+  },
+  {
+    "id": "pro_ivy_10",
+    "name": "Ivy Park",
+    "avatar": "https://i.pravatar.cc/150?img=10",
+    "categories": [
+      "Carpentry"
+    ],
+    "rating": 4.8,
+    "jobsCompleted": 172,
+    "yearsExperience": 8,
+    "hourly_rate_cad": 85,
+    "city": "Vancouver, BC",
+    "travelRadius_km": 30,
+    "languages": [
+      "English",
+      "Korean"
+    ],
+    "verified": true,
+    "insured": true,
+    "skills": [
+      "doors",
+      "hinges",
+      "latches"
+    ],
+    "bio": "Door whisperer—sticks and squeaks begone."
+  },
+  {
+    "id": "pro_mateo_11",
+    "name": "Mateo García",
+    "avatar": "https://i.pravatar.cc/150?img=15",
+    "categories": [
+      "Carpentry"
+    ],
+    "rating": 4.7,
+    "jobsCompleted": 156,
+    "yearsExperience": 7,
+    "hourly_rate_cad": 82,
+    "city": "Vancouver, BC",
+    "travelRadius_km": 25,
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "verified": true,
+    "insured": true,
+    "skills": [
+      "trim",
+      "mitering",
+      "caulking"
+    ],
+    "bio": "Clean trim work and seamless joints."
+  },
+  {
+    "id": "pro_nora_12",
+    "name": "Nora Kim",
+    "avatar": "https://i.pravatar.cc/150?img=12",
+    "categories": [
+      "Roofing"
+    ],
+    "rating": 4.6,
+    "jobsCompleted": 98,
+    "yearsExperience": 6,
+    "hourly_rate_cad": 95,
+    "city": "Vancouver, BC",
+    "travelRadius_km": 50,
+    "languages": [
+      "English"
+    ],
+    "verified": true,
+    "insured": true,
+    "skills": [
+      "shingles",
+      "flashing"
+    ],
+    "bio": "Quick leak diagnostics and patching."
+  },
+  {
+    "id": "pro_henry_13",
+    "name": "Henry Clarke",
+    "avatar": "https://i.pravatar.cc/150?img=13",
+    "categories": [
+      "Roofing"
+    ],
+    "rating": 4.8,
+    "jobsCompleted": 211,
+    "yearsExperience": 9,
+    "hourly_rate_cad": 88,
+    "city": "Vancouver, BC",
+    "travelRadius_km": 45,
+    "languages": [
+      "English",
+      "French"
+    ],
+    "verified": true,
+    "insured": true,
+    "skills": [
+      "gutters",
+      "downspouts",
+      "drainage"
+    ],
+    "bio": "Safety-focused with spotless cleanups."
+  },
+  {
+    "id": "pro_sofia_14",
+    "name": "Sofia Lopez",
+    "avatar": "https://i.pravatar.cc/150?img=14",
+    "categories": [
+      "Bricklaying"
+    ],
+    "rating": 4.7,
+    "jobsCompleted": 124,
+    "yearsExperience": 7,
+    "hourly_rate_cad": 92,
+    "city": "Vancouver, BC",
+    "travelRadius_km": 35,
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "verified": true,
+    "insured": true,
+    "skills": [
+      "repointing",
+      "mortar mixes"
+    ],
+    "bio": "Historic-friendly repointing for small sections."
+  },
+  {
+    "id": "pro_liam_15",
+    "name": "Liam O’Connor",
+    "avatar": "https://i.pravatar.cc/150?img=5",
+    "categories": [
+      "Bricklaying"
+    ],
+    "rating": 4.8,
+    "jobsCompleted": 167,
+    "yearsExperience": 8,
+    "hourly_rate_cad": 94,
+    "city": "Vancouver, BC",
+    "travelRadius_km": 40,
+    "languages": [
+      "English"
+    ],
+    "verified": true,
+    "insured": true,
+    "skills": [
+      "pavers",
+      "levelling"
+    ],
+    "bio": "Tight patterns, long-lasting sets."
+  },
+  {
+    "id": "pro_oliver_16",
+    "name": "Oliver Reed",
+    "avatar": "https://i.pravatar.cc/150?img=16",
+    "categories": [
+      "Carpentry"
+    ],
+    "rating": 4.9,
+    "jobsCompleted": 241,
+    "yearsExperience": 10,
+    "hourly_rate_cad": 90,
+    "city": "Vancouver, BC",
+    "travelRadius_km": 30,
+    "languages": [
+      "English"
+    ],
+    "verified": true,
+    "insured": true,
+    "skills": [
+      "shelving",
+      "mounting"
+    ],
+    "bio": "Crisp floating installs with hidden brackets."
+  }
+]

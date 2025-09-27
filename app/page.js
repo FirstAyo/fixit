@@ -101,7 +101,7 @@ export default function Home() {
     //   </footer>
     // </div>
     <>
-    <Welcome />
+      <Welcome />
     </>
   );
 }

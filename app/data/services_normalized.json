@@ -1,0 +1,422 @@
+[
+  {
+    "id": "svc_plumb_01",
+    "category": "Plumbing",
+    "title": "Fix Leaky Faucet",
+    "excerpt": "Diagnose and repair a dripping or hard-to-turn faucet. Includes basic parts.",
+    "cost": {
+      "amount": 95,
+      "currency": "CAD",
+      "pricing_type": "fixed",
+      "display": "From $95"
+    },
+    "image": "https://placehold.co/800x600?text=Plumbing+%E2%80%93+Leaky+Faucet",
+    "handymanId": "pro_ava_01",
+    "preferredProIds": [
+      "pro_ava_01",
+      "pro_diego_02"
+    ],
+    "tags": [
+      "faucet",
+      "kitchen",
+      "bathroom"
+    ],
+    "duration_hours_estimate": 1.0,
+    "materials_included": true,
+    "slug": "fix-leaky-faucet",
+    "next_available": "2025-09-27"
+  },
+  {
+    "id": "svc_plumb_02",
+    "category": "Plumbing",
+    "title": "Clogged Drain Snaking",
+    "excerpt": "Clear slow or blocked sink, tub, or shower drains using a hand or power auger.",
+    "cost": {
+      "amount": 120,
+      "currency": "CAD",
+      "pricing_type": "fixed",
+      "display": "From $120"
+    },
+    "image": "https://placehold.co/800x600?text=Plumbing+%E2%80%93+Drain+Snaking",
+    "handymanId": "pro_diego_02",
+    "preferredProIds": [
+      "pro_diego_02",
+      "pro_noah_03"
+    ],
+    "tags": [
+      "drain",
+      "snaking"
+    ],
+    "duration_hours_estimate": 1.5,
+    "materials_included": false,
+    "slug": "clogged-drain-snaking",
+    "next_available": "2025-09-29"
+  },
+  {
+    "id": "svc_plumb_03",
+    "category": "Plumbing",
+    "title": "Toilet Install/Replace",
+    "excerpt": "Remove old toilet, install a new one, and test for leaks (customer-supplied unit).",
+    "cost": {
+      "amount": 180,
+      "currency": "CAD",
+      "pricing_type": "fixed",
+      "display": "From $180"
+    },
+    "image": "https://placehold.co/800x600?text=Plumbing+%E2%80%93+Toilet+Install",
+    "handymanId": "pro_noah_03",
+    "preferredProIds": [
+      "pro_noah_03",
+      "pro_ava_01"
+    ],
+    "tags": [
+      "toilet",
+      "install"
+    ],
+    "duration_hours_estimate": 2.0,
+    "materials_included": false,
+    "slug": "toilet-install-replace",
+    "next_available": "2025-09-28"
+  },
+  {
+    "id": "svc_elec_01",
+    "category": "Electricity",
+    "title": "Light Fixture Replacement",
+    "excerpt": "Swap out existing light fixtures and ensure safe wiring and testing.",
+    "cost": {
+      "amount": 110,
+      "currency": "CAD",
+      "pricing_type": "fixed",
+      "display": "From $110"
+    },
+    "image": "https://placehold.co/800x600?text=Electricity+%E2%80%93+Light+Fixture",
+    "handymanId": "pro_maya_04",
+    "preferredProIds": [
+      "pro_maya_04",
+      "pro_ethan_05"
+    ],
+    "tags": [
+      "lighting",
+      "wiring"
+    ],
+    "duration_hours_estimate": 1.25,
+    "materials_included": false,
+    "slug": "light-fixture-replacement",
+    "next_available": "2025-09-26"
+  },
+  {
+    "id": "svc_elec_02",
+    "category": "Electricity",
+    "title": "Outlet & Switch Repair",
+    "excerpt": "Fix faulty outlets or switches and replace with modern, child-safe parts.",
+    "cost": {
+      "amount": 95,
+      "currency": "CAD",
+      "pricing_type": "fixed",
+      "display": "From $95"
+    },
+    "image": "https://placehold.co/800x600?text=Electricity+%E2%80%93+Outlet+Repair",
+    "handymanId": "pro_ethan_05",
+    "preferredProIds": [
+      "pro_ethan_05",
+      "pro_maya_04"
+    ],
+    "tags": [
+      "outlet",
+      "switch"
+    ],
+    "duration_hours_estimate": 1.0,
+    "materials_included": true,
+    "slug": "outlet-switch-repair",
+    "next_available": "2025-09-30"
+  },
+  {
+    "id": "svc_elec_03",
+    "category": "Electricity",
+    "title": "Ceiling Fan Install",
+    "excerpt": "Install ceiling fan with proper support box, balancing, and speed controls.",
+    "cost": {
+      "amount": 160,
+      "currency": "CAD",
+      "pricing_type": "fixed",
+      "display": "From $160"
+    },
+    "image": "https://placehold.co/800x600?text=Electricity+%E2%80%93+Ceiling+Fan",
+    "handymanId": "pro_olivia_06",
+    "preferredProIds": [
+      "pro_olivia_06",
+      "pro_ethan_05"
+    ],
+    "tags": [
+      "fan",
+      "install",
+      "lighting"
+    ],
+    "duration_hours_estimate": 2.0,
+    "materials_included": false,
+    "slug": "ceiling-fan-install",
+    "next_available": "2025-09-27"
+  },
+  {
+    "id": "svc_paint_01",
+    "category": "Painting",
+    "title": "Room Repaint (Single)",
+    "excerpt": "Prep, patch, and repaint a standard-size room. Paint not included.",
+    "cost": {
+      "amount": 320,
+      "currency": "CAD",
+      "pricing_type": "fixed",
+      "display": "From $320"
+    },
+    "image": "https://placehold.co/800x600?text=Painting+%E2%80%93+Room+Repaint",
+    "handymanId": "pro_jack_07",
+    "preferredProIds": [
+      "pro_jack_07",
+      "pro_zara_08"
+    ],
+    "tags": [
+      "interior",
+      "walls",
+      "prep"
+    ],
+    "duration_hours_estimate": 6.0,
+    "materials_included": false,
+    "slug": "room-repaint-single",
+    "next_available": "2025-10-01"
+  },
+  {
+    "id": "svc_paint_02",
+    "category": "Painting",
+    "title": "Accent Wall Paint",
+    "excerpt": "Add a pop of color with a neatly taped and rolled accent wall.",
+    "cost": {
+      "amount": 150,
+      "currency": "CAD",
+      "pricing_type": "fixed",
+      "display": "From $150"
+    },
+    "image": "https://placehold.co/800x600?text=Painting+%E2%80%93+Accent+Wall",
+    "handymanId": "pro_zara_08",
+    "preferredProIds": [
+      "pro_zara_08",
+      "pro_jack_07"
+    ],
+    "tags": [
+      "accent",
+      "color"
+    ],
+    "duration_hours_estimate": 2.5,
+    "materials_included": false,
+    "slug": "accent-wall-paint",
+    "next_available": "2025-09-26"
+  },
+  {
+    "id": "svc_paint_03",
+    "category": "Painting",
+    "title": "Exterior Touch-Ups",
+    "excerpt": "Scrape, prime, and paint small exterior areas for quick curb appeal.",
+    "cost": {
+      "amount": 260,
+      "currency": "CAD",
+      "pricing_type": "fixed",
+      "display": "From $260"
+    },
+    "image": "https://placehold.co/800x600?text=Painting+%E2%80%93+Exterior+Touch-Ups",
+    "handymanId": "pro_caleb_09",
+    "preferredProIds": [
+      "pro_caleb_09",
+      "pro_zara_08"
+    ],
+    "tags": [
+      "exterior",
+      "primer"
+    ],
+    "duration_hours_estimate": 4.0,
+    "materials_included": false,
+    "slug": "exterior-touch-ups",
+    "next_available": "2025-09-28"
+  },
+  {
+    "id": "svc_carp_01",
+    "category": "Carpentry",
+    "title": "Door Hanging & Alignment",
+    "excerpt": "Install interior doors, adjust hinges, and align latches for smooth close.",
+    "cost": {
+      "amount": 140,
+      "currency": "CAD",
+      "pricing_type": "fixed",
+      "display": "From $140"
+    },
+    "image": "https://placehold.co/800x600?text=Carpentry+%E2%80%93+Door+Hanging",
+    "handymanId": "pro_ivy_10",
+    "preferredProIds": [
+      "pro_ivy_10",
+      "pro_mateo_11"
+    ],
+    "tags": [
+      "doors",
+      "hinges",
+      "trim"
+    ],
+    "duration_hours_estimate": 2.0,
+    "materials_included": false,
+    "slug": "door-hanging-alignment",
+    "next_available": "2025-09-27"
+  },
+  {
+    "id": "svc_carp_02",
+    "category": "Carpentry",
+    "title": "Baseboard & Trim Install",
+    "excerpt": "Measure, cut, and install interior baseboards and trim with caulking.",
+    "cost": {
+      "amount": 220,
+      "currency": "CAD",
+      "pricing_type": "fixed",
+      "display": "From $220"
+    },
+    "image": "https://placehold.co/800x600?text=Carpentry+%E2%80%93+Baseboards",
+    "handymanId": "pro_mateo_11",
+    "preferredProIds": [
+      "pro_mateo_11",
+      "pro_ivy_10",
+      "pro_oliver_16"
+    ],
+    "tags": [
+      "baseboards",
+      "trim"
+    ],
+    "duration_hours_estimate": 3.5,
+    "materials_included": false,
+    "slug": "baseboard-trim-install",
+    "next_available": "2025-09-30"
+  },
+  {
+    "id": "svc_roof_01",
+    "category": "Roofing",
+    "title": "Shingle Patch Repair",
+    "excerpt": "Replace missing or damaged shingles and reseal flashing to stop small leaks.",
+    "cost": {
+      "amount": 250,
+      "currency": "CAD",
+      "pricing_type": "fixed",
+      "display": "From $250"
+    },
+    "image": "https://placehold.co/800x600?text=Roofing+%E2%80%93+Shingle+Patch",
+    "handymanId": "pro_nora_12",
+    "preferredProIds": [
+      "pro_nora_12"
+    ],
+    "tags": [
+      "shingles",
+      "leak"
+    ],
+    "duration_hours_estimate": 3.0,
+    "materials_included": false,
+    "slug": "shingle-patch-repair",
+    "next_available": "2025-10-02"
+  },
+  {
+    "id": "svc_roof_02",
+    "category": "Roofing",
+    "title": "Gutter Cleaning",
+    "excerpt": "Clean gutters and downspouts, flush lines, and check for proper drainage.",
+    "cost": {
+      "amount": 180,
+      "currency": "CAD",
+      "pricing_type": "fixed",
+      "display": "From $180"
+    },
+    "image": "https://placehold.co/800x600?text=Roofing+%E2%80%93+Gutter+Cleaning",
+    "handymanId": "pro_henry_13",
+    "preferredProIds": [
+      "pro_henry_13",
+      "pro_nora_12"
+    ],
+    "tags": [
+      "gutter",
+      "downspout"
+    ],
+    "duration_hours_estimate": 2.5,
+    "materials_included": false,
+    "slug": "gutter-cleaning",
+    "next_available": "2025-09-26"
+  },
+  {
+    "id": "svc_brick_01",
+    "category": "Bricklaying",
+    "title": "Brick Repointing (Small Area)",
+    "excerpt": "Grind out deteriorated mortar joints and repoint small wall sections.",
+    "cost": {
+      "amount": 350,
+      "currency": "CAD",
+      "pricing_type": "fixed",
+      "display": "From $350"
+    },
+    "image": "https://placehold.co/800x600?text=Bricklaying+%E2%80%93+Repointing",
+    "handymanId": "pro_sofia_14",
+    "preferredProIds": [
+      "pro_sofia_14",
+      "pro_liam_15"
+    ],
+    "tags": [
+      "mortar",
+      "repointing"
+    ],
+    "duration_hours_estimate": 4.0,
+    "materials_included": false,
+    "slug": "brick-repointing-small-area",
+    "next_available": "2025-10-03"
+  },
+  {
+    "id": "svc_brick_02",
+    "category": "Bricklaying",
+    "title": "Paver Repair & Reset",
+    "excerpt": "Lift, level, and reset sunken or wobbly pavers; sweep in polymeric sand.",
+    "cost": {
+      "amount": 300,
+      "currency": "CAD",
+      "pricing_type": "fixed",
+      "display": "From $300"
+    },
+    "image": "https://placehold.co/800x600?text=Bricklaying+%E2%80%93+Paver+Repair",
+    "handymanId": "pro_liam_15",
+    "preferredProIds": [
+      "pro_liam_15",
+      "pro_sofia_14"
+    ],
+    "tags": [
+      "pavers",
+      "level"
+    ],
+    "duration_hours_estimate": 3.5,
+    "materials_included": false,
+    "slug": "paver-repair-reset",
+    "next_available": "2025-09-29"
+  },
+  {
+    "id": "svc_misc_01",
+    "category": "Carpentry",
+    "title": "Custom Floating Shelves",
+    "excerpt": "Design, build, and mount floating shelves with hidden brackets.",
+    "cost": {
+      "amount": 260,
+      "currency": "CAD",
+      "pricing_type": "fixed",
+      "display": "From $260"
+    },
+    "image": "https://placehold.co/800x600?text=Carpentry+%E2%80%93+Shelves",
+    "handymanId": "pro_oliver_16",
+    "preferredProIds": [
+      "pro_oliver_16",
+      "pro_mateo_11"
+    ],
+    "tags": [
+      "shelves",
+      "custom"
+    ],
+    "duration_hours_estimate": 3.0,
+    "materials_included": false,
+    "slug": "custom-floating-shelves",
+    "next_available": "2025-09-27"
+  }
+]
